@@ -5,6 +5,15 @@ RKNN-Toolkit2 is a software development kit for users to perform model conversio
 # Download
 - You can also download all packages, docker image, examples, docs and platform-tools from baidu cloud: [rknn-toolkit2-v1.1.1](https://eyun.baidu.com/s/3jJLf6V8 "rknn-toolkit2-v1.1.0"), fetch code: rknn2
 
+# Docker
+- put the whole toolkit and all dependencies into a container image named 'rknn_toolkit2'
+```
+docker build . -t rknn_toolkit2
+```
+- launch the container just built.  You can adjust the path mapping after `-v`.
+```
+docker run -it -v ${PWD}/work:/root/host --rm rknn_toolkit2 bash
+```
 # Notes
 - Currently rknn-toolkit2 is not compatible with [rknn-toolkit](https://github.com/rockchip-linux/rknn-toolkit)
 - Currently only support on Ubuntu 18.04  python 3.6
