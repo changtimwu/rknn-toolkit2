@@ -1,3 +1,5 @@
+[![Docker](https://github.com/changtimwu/rknn-toolkit2/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/changtimwu/rknn-toolkit2/actions/workflows/docker-publish.yml)
+
 # Introduction
 RKNN-Toolkit2 is a software development kit for users to perform model conversion, inference and performance evaluation on PC, RK3566, RK3568, RK3588(not support yet).
 # Download
