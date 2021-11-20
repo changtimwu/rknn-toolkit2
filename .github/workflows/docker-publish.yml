@@ -8,6 +8,10 @@ name: build and publish
 on:
   push:
     branches: [ features/docker ]
+    paths:
+    - Dockerfile
+    - packages
+    - examples 
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
   pull_request:
